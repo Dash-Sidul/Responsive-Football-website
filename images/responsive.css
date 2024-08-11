@@ -1,0 +1,89 @@
+@media  screen and (max-width:576px){
+    .bg{
+        /* width: 100%; */
+    }
+    .nav-title{
+        display: none;
+
+    }
+    .nav-links{
+        display: none;
+    }
+    .three-dot{
+        display: block;
+        margin-left: -55px;
+        margin-top: 5px;
+    }
+    .nav-button{
+        margin-right: -70px;
+        margin-top: -10px;
+    }
+    .header-content{
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 25px;
+        gap: 70px;
+        margin: 0 auto;
+        
+    }
+    .header-title-content{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .banner-img{
+        width: 350px;
+       
+        text-align: center;
+        
+    }
+
+    .player-container{
+        display: flex;
+        flex-direction: column;
+    }
+    /* /* *{
+        border: 1px solid red;
+        background-color: aqua; 
+    } */
+
+    .highlight-section{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .highlight-info{
+        width: 80%;
+    }
+    .highlight-img{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .football-img{
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    .football-image{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .icon-img{
+        width: 65%;
+        margin: 0 auto;
+        padding-left: 30px;
+
+    }
+    .footer-info{
+        margin-left: 10px;
+        padding-left: 130px;
+       
+    }
+    
+
+
+
+
+
+}

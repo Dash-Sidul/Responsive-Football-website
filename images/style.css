@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-thin{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header part start */
+.bg{
+    background-color: rgb(38, 38, 242);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px;
+}
+.nav-links{
+    display: flex;
+}
+.list{
+    list-style: none;
+    padding: 0px 30px;
+    line-height: 50px;
+}
+.three-dot{
+    display: none;
+    color: #ffffff;
+}
+.nav-ancor{
+    text-decoration: none;
+    color:#ffffff;
+}
+.nav-button{
+    display: flex;
+}
+.button{
+    display: flex;
+    gap: 8px;
+    background-color: rgb(238, 61, 96);
+    color: #ffffff;
+    border: none;
+    padding: 0 15px;
+    line-height: 50px;
+}
+.header-content{
+    display: flex;
+    margin: 20px 35px;
+}
+.header-title{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.header-title-content{
+    font-size: 3rem;
+    width: 400px;
+    color: #ffffff;
+    margin-top: 40px;
+}
+.watch{
+    background-color: rgb(236, 88, 118);
+    color: #ffffff;
+    padding: 10px 25px;
+    border: none;
+    width: 140px;
+}
+.header-img{
+    /* width: 50%; */
+    margin-top: -30px;
+    padding-bottom: 40px;
+}
+.banner-img{
+    width: 600px;
+}
+
+
+/* header part end */
+
+
+
+/* main part start */
+
+  /* player section start */
+.main{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.player-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    gap: 15px;
+    margin: 0 auto;
+}
+
+.player{
+    width: 100%;
+    margin: 0 auto;
+}
+.player-name{
+    font-size: 1.7rem;
+    font-weight: 550;
+
+}
+
+.player-info{
+    width: 90%;
+   padding-top: 1.2rem;
+   margin-bottom: 2rem;
+   color: #6c6c6c;
+   font-size: .9rem;
+
+
+}
+.player-content{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+    padding: 10px;
+}
+
+/* player section end */
+
+/* highlight section start */
+
+
+.highlight-section{
+    display: flex;
+    width: 90%;
+    margin: 40px auto;
+    padding-top: 80px;
+}
+.highlight-heading{
+    padding-bottom: 30px;
+}
+.highlight-info{
+    width: 50%;
+    padding-bottom: 40px;
+    color: #6c6c6c;
+}
+.highlight-img{
+    width: 50%;
+}
+.highlight-image{
+    width: 100%;
+}
+
+/* highlight section end */
+
+/* footer section start */
+
+.footer{
+    width: 50%;
+    margin: 0 auto;
+
+    
+    /* margin: 0 auto; */
+}
+.football-image{
+    width: 50%;
+    margin-left: 100px;
+    
+}
+.icon-img{
+   margin-left: 180px;
+   margin-bottom: 40px;
+   margin-top: 40px;
+   display: flex;
+}
+.icon{
+    width: 60px;
+    padding-left: 20px;
+}
+.footer-info{
+    margin-top: 30px;
+   margin-left: 180px;
+   margin-bottom: 40px;
+}
